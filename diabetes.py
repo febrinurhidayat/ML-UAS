@@ -10,22 +10,22 @@ st.title('Machine Learning Prediksi Diabetes')
 col1, col2 = st.columns(2)
 
 with col1:
-    Pregnancies = st.text_input('Masukan Nilai Pregnancies')
+    Pregnancies = st.number_input('Masukan Nilai Pregnancies')
 with col2:
-    Glucose = st.text_input('Masukan Nilai Glucose')
+    Glucose = st.number_input('Masukan Nilai Glucose')
 with col1:
-    BloodPressure = st.text_input('Masukan Nilai Blood Pressure')
+    BloodPressure = st.number_input('Masukan Nilai Blood Pressure')
 with col2:
-    SkinThickness = st.text_input('Masukan Nilai SkinThickness')
+    SkinThickness = st.number_input('Masukan Nilai SkinThickness')
 with col1:
-    Insulin = st.text_input('Masukan Nilai Insulin')
+    Insulin = st.number_input('Masukan Nilai Insulin')
 with col2:
-    BMI = st.text_input('Masukan Nilai BMI')
+    BMI = st.number_input('Masukan Nilai BMI')
 with col1:
-    DiabetesPedigreeFunction = st.text_input(
+    DiabetesPedigreeFunction = st.number_input(
         'Masukan Nilai Diabetes Pedigree Function')
 with col2:
-    Age = st.text_input('Masukan Nilai Umur')
+    Age = st.number_input('Masukan Nilai Umur')
 # Tombol
 diabetes_diagnosis = ''
 # membuat tombol
