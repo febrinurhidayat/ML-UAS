@@ -33,7 +33,8 @@ st.markdown(
 )
 
 # Judul dengan kelas yang sudah ditentukan
-st.markdown('<h1 class="title">Machine Learning Pendeteksi Diabetes</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">Machine Learning</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">Pendeteksi Diabetes</h1>', unsafe_allow_html=True)
 
 # Kolom untuk input
 col1, col2 = st.columns(2)
