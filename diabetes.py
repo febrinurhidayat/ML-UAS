@@ -13,12 +13,14 @@ st.markdown(
         color: #4CAF50;
         font-family: 'Arial', sans-serif;
         font-size: 2.5em;
+        margin-bottom: 0.2em;  # Mengurangi margin bawah judul
     }
     .subtitle {
         text-align: center;
         color: #4CAF50;
         font-family: 'Arial', sans-serif;
         font-size: 1.5em;
+        margin-top: 0em;  # Mengurangi margin atas subjudul
     }
     .sidebar .sidebar-content {
         background-color: #f0f2f6;
