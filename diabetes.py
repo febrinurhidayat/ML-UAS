@@ -5,8 +5,20 @@ import streamlit as st
 diabetes = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # judul web
-st.title('Machine Learning')
-st.title('Prediksi Diabetes')
+# st.title('Machine Learning')
+st.markdown(
+    """
+    <style>
+    .title {
+        text-align: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Title with centered class
+st.markdown('<h1 class="title">Machine Learning Pendeteksi Diabetes</h1>', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
