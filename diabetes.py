@@ -5,7 +5,6 @@ import streamlit as st
 diabetes = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # judul web
-# st.title('Machine Learning')
 st.markdown(
     """
     <style>
