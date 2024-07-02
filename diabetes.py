@@ -5,7 +5,8 @@ import streamlit as st
 diabetes = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # judul web
-st.title('Machine Learning Prediksi Diabetes')
+st.title('Machine Learning')
+st.title('Prediksi Diabetes')
 
 col1, col2 = st.columns(2)
 
